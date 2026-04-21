@@ -14,12 +14,3 @@ dbConnect()
 app.listen(port, () => {
     console.log(`Server is Running at port ${port}`);
 })
-
-//server - db - server - model(schema) - controller(functions) - route(api) - server
-//CRUD
-//create - post
-//read - get
-//update - put / patch
-//delete - delete
-//status-codes - 200,201,400-404,408,409,500
-// mongoose methods: find, findById
